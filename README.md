@@ -1,4 +1,7 @@
-Projets : Morpion
+Projets : Morpion 
+
+(Quelques bugs empêchent le lancement complet donc si vous pouvez aider à corriger merci d'avance :)
+Lancement avec ruby app.rb
 
 Nous allons donc créer un jeu de morpion, jeu hautement stratégique et follement passionnant s'il en est.
 
@@ -13,3 +16,5 @@ Une partie gagnée par le joueur X ou par le joueur O ou une partie nulle.
 En raison du nombre de combinaisons limité, l'analyse complète du jeu est facile à réaliser : si les deux joueurs jouent chacun de manière optimale, la partie doit toujours se terminer par un match nul.
 
 LET'S GOOOOOO!!!!!!!
+
+
