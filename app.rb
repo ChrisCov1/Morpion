@@ -19,13 +19,21 @@ class Application
     @name2 = gets.chomp
     puts "Bonjour #{@name2}"
     player2 = Player.new(@name2, "O")
-    binding.pry
+    #binding.pry
 
     puts "Jouons ensemble au MORPION"
-    while cases.value >= 0 && cases.value <= 8
+    game_start = true 
+    timer = 1
+    timer_max = 9
+    while game_start
       puts "on continue de jouer"
-      break
+      puts "tour de jeu numero #{timer}"
+      timer +=1
+      if timer == timer_max
+        game_start = false
+      end
     end
+      puts "fin du jeu"
   end
 end
 Application.new.perform
